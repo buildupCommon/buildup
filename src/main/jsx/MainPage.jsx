@@ -4,13 +4,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-import TopNavVar from './components/TopNavVar';
+import BupHeader from './templates/BupHeader';
 
 class MainPage extends React.Component {
 
     render() {
         return <div>
-            <TopNavVar></TopNavVar>
+            <BupHeader></BupHeader>
         </div>;
     }
 

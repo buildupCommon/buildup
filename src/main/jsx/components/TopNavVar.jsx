@@ -15,18 +15,18 @@ class TopNavVar extends React.Component{
                     <Navbar.Brand href="#home">
                         <img
                             src="../img/logo.svg"
-                            width="120"
-                            height="180"
+                            width="60"
+                            height="60"
                             alt="React Bootstrap logo"
                         />
                     </Navbar.Brand>
-                    <Navbar.Collapse>
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home"><Button variant="outline-primary" size="lg">팀정보</Button></Nav.Link>
-                        <Nav.Link href="#link"><Button variant="outline-primary" size="lg">Match</Button></Nav.Link>
-                        <Nav.Link href="#link"><Button variant="outline-primary" size="lg">랭킹</Button></Nav.Link>
-                        <Nav.Link href="#link"><Button variant="outline-primary" size="lg">이적시장</Button></Nav.Link>
-                        <Nav.Link href="#link"><Button variant="outline-primary" size="lg">게시판</Button></Nav.Link>
+                    <Navbar.Collapse className="justify-content-center">
+                    <Nav>
+                        <Nav.Link href="#home">팀정보</Nav.Link>
+                        <Nav.Link href="#link">Match</Nav.Link>
+                        <Nav.Link href="#link">랭킹</Nav.Link>
+                        <Nav.Link href="#link">이적시장</Nav.Link>
+                        <Nav.Link href="#link">게시판</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>
